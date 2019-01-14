@@ -250,13 +250,18 @@ footer{
 	}
 
 	.main-2 section{
-		padding-left: 30px;
-		padding-right: 0;
+		padding-left: 25px;
+		padding-right: 5px;
 	}
 
 	.main-2 section:first-child{
 		padding-left: 20px;
 		padding-right: 10px;
+	}
+
+	.main-2 section:last-child{
+		padding-left: 30px;
+		padding-right: 0;
 	}
 
     .middle-img{
@@ -317,7 +322,7 @@ footer{
 		padding-top: 58px;
 	}
 
-	.main-1 section, .main-2 section, .main-1 section:last-child, .main-2 section:first-child{
+	.main-1 section, .main-2 section, .main-1 section:last-child, .main-2 section:last-child, .main-2 section:first-child{
 		width: 460px;
 		padding-left: 0;
 	}
